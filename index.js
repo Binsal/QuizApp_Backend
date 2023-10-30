@@ -19,6 +19,10 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/",(req,res)=>{
+    res.send("Hello");
+})
+
+app.get("/categories",(req,res)=>{
     res.json(quizzes);
 })
 
