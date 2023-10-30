@@ -6,6 +6,8 @@ const userdata = require("./db/users");
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 
+const {loginRouter,signupRouter} = require("./router/auth.router");
+const routeNotFound=require("./middleware/routeNotFound");
 dotenv.config();
 
 const port=3000;
@@ -20,17 +22,9 @@ app.get("/",(req,res)=>{
 
 app.use("/quiz",quizRouter);
 
-app.post("/auth/login",(req,res)=>{
-    const {username,password} = req.body;
-    const isUserVerfied = userdata.users.some(user=>user.username===username && user.password===password);
-    if(isUserVerfied){
-        const token  = jwt.sign({id:username},process.env.SECRET_KEY);
-        res.json({username,token,message : "user is verfied"});
-    }
-    else{
-        res.status(401).json({message:"Invalid Credentials"})
-    }
-})
+app.use("/auth/login",loginRouter);
+app.use("/auth/signup",signupRouter);
+app.use(routeNotFound);
 
 app.listen(process.env.PORT || port , ()=>{
     console.log("server is running");
