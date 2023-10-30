@@ -10,6 +10,8 @@ const {loginRouter,signupRouter} = require("./router/auth.router");
 const routeNotFound=require("./middleware/routeNotFound");
 dotenv.config();
 
+const quizzes = require("./db/quizzes");
+
 const port=3000;
 
 app.use(cors());
@@ -17,7 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send("Hello");
+    res.json(quizzes);
 })
 
 app.use("/quiz",quizRouter);
