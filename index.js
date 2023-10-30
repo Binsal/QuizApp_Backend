@@ -4,6 +4,9 @@ const cors = require("cors");
 const quizRouter = require("./router/quiz.router");
 const userdata = require("./db/users");
 const jwt = require("jsonwebtoken");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 const port=3000;
 
