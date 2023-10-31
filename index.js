@@ -11,6 +11,7 @@ const routeNotFound=require("./middleware/routeNotFound");
 dotenv.config();
 
 const quizzes = require("./db/quizzes");
+const categoriesRouter = require("./router/categories.router");
 
 const port=3000;
 
@@ -22,9 +23,7 @@ app.get("/",(req,res)=>{
     res.send("Hello");
 })
 
-app.get("/categories",(req,res)=>{
-    res.json(quizzes);
-})
+app.use("/categories",categoriesRouter);
 
 app.use("/quiz",quizRouter);
 
