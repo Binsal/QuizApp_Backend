@@ -2,14 +2,11 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const quizRouter = require("./router/quiz.router");
-const userdata = require("./db/users");
-const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
 
 const {loginRouter,signupRouter} = require("./router/auth.router");
 const routeNotFound=require("./middleware/routeNotFound");
 dotenv.config();
-
 const quizzes = require("./db/quizzes");
 const categoriesRouter = require("./router/categories.router");
 

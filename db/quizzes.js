@@ -1,14 +1,14 @@
 const { v4: uuid } = require("uuid")
 
 const quizzes = {
-    data: [
+    "data": [
         // 1st Quiz Card --> will have title, category, description, quiz,
         {
             id: uuid(),
             category: "General Knowledge",
             image: "https://img.freepik.com/free-vector/knowledge-background-design_1300-109.jpg",
             title: "General Knowledge",
-            description: " Here, we are summarising general knowledge questions and answers in a simplified form including broad varieties of topics. It will help in developing intellectual abilities and also provide them with the ability to speak up when necessary.",
+            description: " Here, we are summarising general knowledge questions and answers in a simplified form.",
             quiz: [
                 //1st question and options
                 {
@@ -72,7 +72,7 @@ const quizzes = {
             category: "MatheMatics",
             image: "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzcwMjE4LWltYWdlLWt3eXFoYTRxLmpwZw.jpg",
             title: "MatheMatics",
-            description: "The quick Math questions range from the basic school level to that of various competitive exams and career-building entrance tests.The below-mentioned quick math questions are curated in such a manner that would help you analyse your preparation and will also help you to boost your performance.",
+            description: "The quick Math questions range from the basic school level to that of various competitive exams and career-building entrance tests.",
 
             quiz: [
                 {
@@ -124,7 +124,7 @@ const quizzes = {
                         { id: uuid(), option: "12 minutes", isCorrect: false },
                         { id: uuid(), option: "11 minutes", isCorrect: false }
                     ]
-                },
+                }
             ]
         },
         {
@@ -132,7 +132,7 @@ const quizzes = {
             category: "Science",
             image: "https://img.freepik.com/premium-photo/chemical-test-tubes-with-colorful-liquids_798986-561.jpg",
             title: "Science",
-            description: "In science MCQs, we present concise questions and answers that cover a wide range of scientific topics. These questions are designed to test your knowledge and promote critical thinking. They are a valuable tool for enhancing your scientific understanding and analytical skills.",
+            description: "In science MCQs, we present concise questions and answers that cover a wide range of scientific topics. ",
             quiz: [
                 //1st question and options
                 {
@@ -187,9 +187,9 @@ const quizzes = {
                         { id: uuid(), option: "Oceanography", isCorrect: false },
                         { id: uuid(), option: "Geology", isCorrect: false }
                     ]
-                },
+                }
             ]
-        },
+        }
 
     ]
 }
