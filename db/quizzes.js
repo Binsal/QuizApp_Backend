@@ -1,7 +1,7 @@
-const { v4: uuid } = require("uuid")
+const { v4: uuid } = require("uuid");
 
 const quizzes = {
-    "data": [
+    data: [
         // 1st Quiz Card --> will have title, category, description, quiz,
         {
             id: uuid(),
