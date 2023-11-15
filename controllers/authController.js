@@ -15,7 +15,7 @@ const signupHandler=(req,res)=>{
         const newUser = {id,username,password};
         userdata.users=[...userdata.users,newUser];
         const token = jwt.sign({id:username},process.env.SECRET_KEY);
-        res.json({message:`Success - Created new user --> ${username}::${token}`});
+        res.json({message:`Success - Created new user --> ${username}::${token}`})
 
     }
 }
@@ -26,7 +26,7 @@ const loginHandler=(req,res)=>{
         const isUserVerfied = userdata.users.some(user=>user.username===username && user.password===password);
         if(isUserVerfied){
             const token  = jwt.sign({id:username},process.env.SECRET_KEY)
-            res.json({username,token,message : "user is verfied"});
+            res.json({username,token,message : "user is verfied"})
         }
         else{
             res.status(401).json({message:"Invalid Credentials"})

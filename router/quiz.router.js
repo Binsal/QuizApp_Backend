@@ -6,7 +6,7 @@ const authVerify = require("../middleware/authverify");
 
 quizRouter.route("/")
     .get(authVerify,(req,res) => {
-        res.json(quizzes.data);
+        res.json(quizzes)
     });
 
 module.exports =  quizRouter;
