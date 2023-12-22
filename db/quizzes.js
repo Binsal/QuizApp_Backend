@@ -204,20 +204,20 @@ const quizzes = {
         {
             id: uuid(),
             category: "marvel",
-            image: "https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkwNTgwOTkzMTk0MDc1MjYx/marvel-quiz-copy.webp",
+            image: "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzcwMjE4LWltYWdlLWt3eXFoYTRxLmpwZw.jpg",
             title: "Marvel",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
             quiz: [
                 //1st question and options
                 {
                     id: uuid(),
-                    question: "Black Panther is set in which fictional country?",
-                    options: [
-                        { id: uuid(), option: "Wakanda", isCorrect: true },
-                        { id: uuid(), option: "Takanda", isCorrect: false },
-                        { id: uuid(), option: "Zakanda", isCorrect: false },
-                        { id: uuid(), option: "Jakanda", isCorrect: false }
-                    ]
+                    question: "Mohan has some cocks and dogs. If the number of their heads is 108 and the number of their legs is 310, then find the number of cocks.",
+                                        options: [
+                                            { id: uuid(), option: "60", isCorrect: false },
+                                            { id: uuid(), option: "61", isCorrect: true },
+                                            { id: uuid(), option: "62", isCorrect: false },
+                                            { id: uuid(), option: "63", isCorrect: false }
+                                        ]
                 },
                  //2nd question and options
                 {
