@@ -377,13 +377,13 @@ const quizzes = {
                 },
                 {
                                         id: uuid(),
-                                        question: "What is the study of the Earth's atmosphere, weather, and climate called?",
-                                        options: [
-                                            { id: uuid(), option: "Meteorology", isCorrect: true },
-                                            { id: uuid(), option: "Astronomy", isCorrect: false },
-                                            { id: uuid(), option: "Oceanography", isCorrect: false },
-                                            { id: uuid(), option: "Geology", isCorrect: false }
-                                        ]
+                                        question: "Which planet is known as the Red Planet",
+                                                            options: [
+                                                                { id: uuid(), option: "Earth", isCorrect: false },
+                                                                { id: uuid(), option: "Mars", isCorrect: true },
+                                                                { id: uuid(), option: "Venus", isCorrect:false },
+                                                                { id: uuid(), option: "Jupiter", isCorrect: false }
+                                                            ]
                                     },
             ]
         },
