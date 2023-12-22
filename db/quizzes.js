@@ -257,6 +257,59 @@ const quizzes = {
         //2nd quiz
         {
             id: uuid(),
+            category: "mathematics",
+            image: "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzcwMjE4LWltYWdlLWt3eXFoYTRxLmpwZw.jpg",
+            title: "Mathematics",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
+            quiz: [
+                //1st question and options
+                {
+                    id: uuid(),
+                    question: "Mohan has some cocks and dogs. If the number of their heads is 108 and the number of their legs is 310, then find the number of cocks.",
+                                        options: [
+                                            { id: uuid(), option: "60", isCorrect: false },
+                                            { id: uuid(), option: "61", isCorrect: true },
+                                            { id: uuid(), option: "62", isCorrect: false },
+                                            { id: uuid(), option: "63", isCorrect: false }
+                                        ]
+                },
+                 //2nd question and options
+                {
+                    id: uuid(),
+                    question: "In a college, 65% of the students played cricket, 40% of the students played tennis and 25% of the students played both cricket and tennis.What percentage of the students played neither cricket nor tennis?",
+                                        options: [
+                                            { id: uuid(), option: "20%", isCorrect: true },
+                                            { id: uuid(), option: "35%", isCorrect: false },
+                                            { id: uuid(), option: "10%", isCorrect: false },
+                                            { id: uuid(), option: "40%", isCorrect: false }
+                                        ]
+                },
+                 //3rd question and options
+                {
+                    id: uuid(),
+                    question: "Find the square root of the perfect square made by multiplying 4050 with a least positive integer.",
+                                        options: [
+                                            { id: uuid(), option: "80", isCorrect: false },
+                                            { id: uuid(), option: "90", isCorrect: true },
+                                            { id: uuid(), option: "85", isCorrect: false },
+                                            { id: uuid(), option: "95", isCorrect: false }
+                                        ]
+                },
+                 //4th question and options
+                {
+                    id: uuid(),
+                    question: "A monkey climbs a 12 meters high slippery pillar. In his first minute, he climbs 2 meters and in the next minute, he slips one meter down. In this way, how much time will he take to reach the top of the pillar?",
+                                        options: [
+                                            { id: uuid(), option: "10 minutes", isCorrect:false  },
+                                            { id: uuid(), option: "21 minutes", isCorrect: true },
+                                            { id: uuid(), option: "12 minutes", isCorrect: false },
+                                            { id: uuid(), option: "11 minutes", isCorrect: false }
+                                        ]
+                },
+            ]
+        },
+        {
+            id: uuid(),
             category: "science",
             image: "https://img.freepik.com/premium-photo/chemical-test-tubes-with-colorful-liquids_798986-561.jpg",
             title: "science",
