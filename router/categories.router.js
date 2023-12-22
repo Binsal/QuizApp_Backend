@@ -6,7 +6,7 @@ const categoriesRouter = express.Router();
 
 categoriesRouter.route("/")
     .get((req,res) => {
-        res.json(quizzes);
+        res.json(quizzes)
     })
 
 
