@@ -318,13 +318,13 @@ const quizzes = {
                 },
                 {
                                         id: uuid(),
-                                        question: "A monkey climbs a 12 meters high slippery pillar. In his first minute, he climbs 2 meters and in the next minute, he slips one meter down. In this way, how much time will he take to reach the top of the pillar?",
-                                        options: [
-                                            { id: uuid(), option: "10 minutes", isCorrect:false  },
-                                            { id: uuid(), option: "21 minutes", isCorrect: true },
-                                            { id: uuid(), option: "12 minutes", isCorrect: false },
-                                            { id: uuid(), option: "11 minutes", isCorrect: false }
-                                        ]
+                                        question: "The sum of three consecutive multiples of 5 is 285. Find the largest number.",
+                                                            options: [
+                                                                { id: uuid(), option: "75", isCorrect: false },
+                                                                { id: uuid(), option: "100", isCorrect: true },
+                                                                { id: uuid(), option: "120", isCorrect: false },
+                                                                { id: uuid(), option: "90", isCorrect: false }
+                                                            ]
                                     },
             ]
         },
