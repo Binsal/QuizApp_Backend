@@ -203,9 +203,9 @@ const quizzes = {
         // 1st Quiz Card --> will have title, category, description, quiz,
         {
             id: uuid(),
-            category: "marvel",
+            category: "mathematics",
             image: "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzcwMjE4LWltYWdlLWt3eXFoYTRxLmpwZw.jpg",
-            title: "Marvel",
+            title: "Mathematics",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
             quiz: [
                 //1st question and options
@@ -222,35 +222,35 @@ const quizzes = {
                  //2nd question and options
                 {
                     id: uuid(),
-                    question: "Who rescued Tony Stark and Nebula from space?",
-                    options: [
-                        { id: uuid(), option: "Captain America", isCorrect: false },
-                        { id: uuid(), option: "Captain Marvel", isCorrect: true },
-                        { id: uuid(), option: "Thor", isCorrect: false },
-                        { id: uuid(), option: "Hulk", isCorrect: false }
-                    ]
+                    question: "In a college, 65% of the students played cricket, 40% of the students played tennis and 25% of the students played both cricket and tennis.What percentage of the students played neither cricket nor tennis?",
+                                        options: [
+                                            { id: uuid(), option: "20%", isCorrect: true },
+                                            { id: uuid(), option: "35%", isCorrect: false },
+                                            { id: uuid(), option: "10%", isCorrect: false },
+                                            { id: uuid(), option: "40%", isCorrect: false }
+                                        ]
                 },
                  //3rd question and options
                 {
                     id: uuid(),
-                    question: "Thor's Mjolnir is made from the metal of a dying ___?",
-                    options: [
-                        { id: uuid(), option: "Nebula", isCorrect: false },
-                        { id: uuid(), option: "Moon", isCorrect: false },
-                        { id: uuid(), option: "Star", isCorrect: true },
-                        { id: uuid(), option: "Sun", isCorrect: false }
-                    ]
+                    question: "Find the square root of the perfect square made by multiplying 4050 with a least positive integer.",
+                                        options: [
+                                            { id: uuid(), option: "80", isCorrect: false },
+                                            { id: uuid(), option: "90", isCorrect: true },
+                                            { id: uuid(), option: "85", isCorrect: false },
+                                            { id: uuid(), option: "95", isCorrect: false }
+                                        ]
                 },
                  //4th question and options
                 {
                     id: uuid(),
-                    question: "What did Thor say about Jane Foster's catchphrase?",
-                    options: [
-                        { id: uuid(), option: "It's Crap", isCorrect: false },
-                        { id: uuid(), option: "That's Bullshit", isCorrect: false },
-                        { id: uuid(), option: "What ever", isCorrect: false },
-                        { id: uuid(), option: "It's perfect", isCorrect: true }
-                    ]
+                    question: "A monkey climbs a 12 meters high slippery pillar. In his first minute, he climbs 2 meters and in the next minute, he slips one meter down. In this way, how much time will he take to reach the top of the pillar?",
+                                        options: [
+                                            { id: uuid(), option: "10 minutes", isCorrect:false  },
+                                            { id: uuid(), option: "21 minutes", isCorrect: true },
+                                            { id: uuid(), option: "12 minutes", isCorrect: false },
+                                            { id: uuid(), option: "11 minutes", isCorrect: false }
+                                        ]
                 },
             ]
         },
