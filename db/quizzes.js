@@ -204,7 +204,7 @@ const quizzes = {
         {
             id: uuid(),
             category: "General Knowledge",
-            image: "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzcwMjE4LWltYWdlLWt3eXFoYTRxLmpwZw.jpg",
+            image: "https://img.freepik.com/free-vector/knowledge-background-design_1300-109.jpg",
             title: "General Knowledge",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
             quiz: [
@@ -250,6 +250,16 @@ const quizzes = {
                                             { id: uuid(), option: "Oxygen", isCorrect: false },
                                             { id: uuid(), option: "Carbon dioxide", isCorrect: true },
                                             { id: uuid(), option: "Hydrogen", isCorrect: false }
+                                        ]
+                },
+                {
+                                        id: uuid(),
+                                        question: "Which continent is known as the Land Down Under?",
+                                        options: [
+                                            { id: uuid(), option: "Europe", isCorrect: false },
+                                            { id: uuid(), option: "South America", isCorrect: false },
+                                            { id: uuid(), option: "Africa", isCorrect: false },
+                                            { id: uuid(), option: "Australia", isCorrect: true }
                                         ]
                 },
             ]
@@ -306,6 +316,16 @@ const quizzes = {
                                             { id: uuid(), option: "11 minutes", isCorrect: false }
                                         ]
                 },
+                {
+                                        id: uuid(),
+                                        question: "A monkey climbs a 12 meters high slippery pillar. In his first minute, he climbs 2 meters and in the next minute, he slips one meter down. In this way, how much time will he take to reach the top of the pillar?",
+                                        options: [
+                                            { id: uuid(), option: "10 minutes", isCorrect:false  },
+                                            { id: uuid(), option: "21 minutes", isCorrect: true },
+                                            { id: uuid(), option: "12 minutes", isCorrect: false },
+                                            { id: uuid(), option: "11 minutes", isCorrect: false }
+                                        ]
+                                    },
             ]
         },
         {
@@ -355,6 +375,16 @@ const quizzes = {
                                             { id: uuid(), option: "Geology", isCorrect: false }
                                         ]
                 },
+                {
+                                        id: uuid(),
+                                        question: "What is the study of the Earth's atmosphere, weather, and climate called?",
+                                        options: [
+                                            { id: uuid(), option: "Meteorology", isCorrect: true },
+                                            { id: uuid(), option: "Astronomy", isCorrect: false },
+                                            { id: uuid(), option: "Oceanography", isCorrect: false },
+                                            { id: uuid(), option: "Geology", isCorrect: false }
+                                        ]
+                                    },
             ]
         },
 
