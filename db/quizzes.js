@@ -206,7 +206,7 @@ const quizzes = {
             category: "General Knowledge",
             image: "https://img.freepik.com/free-vector/knowledge-background-design_1300-109.jpg",
             title: "General Knowledge",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
+            description: "",
             quiz: [
                 //1st question and options
                 {
@@ -270,7 +270,7 @@ const quizzes = {
             category: "mathematics",
             image: "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzcwMjE4LWltYWdlLWt3eXFoYTRxLmpwZw.jpg",
             title: "Mathematics",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
+            description: "",
             quiz: [
                 //1st question and options
                 {
@@ -333,7 +333,7 @@ const quizzes = {
             category: "science",
             image: "https://img.freepik.com/premium-photo/chemical-test-tubes-with-colorful-liquids_798986-561.jpg",
             title: "science",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
+            description: "",
             quiz: [
                 {
                     id: uuid(),
